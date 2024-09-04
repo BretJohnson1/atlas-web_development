@@ -29,4 +29,3 @@ Here's an example of how the <head> tag is used:
     <p>This is a paragraph.</p>
 </body>
 </html>
-
