@@ -1,0 +1,39 @@
+/* Global Styling */
+
+@font-face {
+    font-family: "Custom-Font_regular";
+    src: url("static/fonts/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+    font-family: "Custom-Font-Light";
+    src: url("static/fonts/SourceSansPro-Light.otf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    font-family: "Custom-Font-Light";
+    color: #FFFFFF;
+}
+
+span {
+    color: #C271ff;
+    font-family: "Custom-Font-Regular";
+    font-weight: bolder;
+}
+
+/* Button Styling */
+
+button {
+    background-color: #C271ff;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    border-radius: 2rem;
+    height: 2.75rem;
+    width: 10.125rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border: none;
+}
