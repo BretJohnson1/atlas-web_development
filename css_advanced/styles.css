@@ -11,12 +11,10 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    font-family: "Custom-Font-Light";
-    color: #FFFFFF;
+    display: block;
+    margin: 0px;
+    max-width: 100%;
+    font-family: Source-sans-pro-Light;
 }
 
 span {
@@ -69,15 +67,17 @@ header {
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    list-style-type: none;
+  display: flex;
+  padding-left: 702px;
 }
 
 li {
-    padding-left: 2rem;
-    font-size: 0.75rem;
+    text-decoration: none;
+  padding-left: px;
+  padding-right: 30px;
+  color: white;
+  font-size: 12px;
 }
 
 .logo-nav-links a {
