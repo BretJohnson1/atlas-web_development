@@ -92,6 +92,10 @@ Rendering: The browser combines the DOM and CSSOM to render the webpage.
 
 These are the basics of CSS and what we'll be going over in this project. To learn more or connect with me be sure to give me a follow!
 
+Here is the link to my webpage:
+
+### [Bret Smile Schhol] (https://bretjohnson1.github.io/atlas-web_development/css_advanced/index.html)
+
 Find me here:
 YouTube - Little Guys Games
 Discord - bret_johnson
