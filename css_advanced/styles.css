@@ -20,7 +20,7 @@ body {
 }
 
 span {
-    color: #C271ff;
+    color: #C271FF;
     font-family: "Custom-Font-Regular";
     font-weight: bolder;
 }
@@ -28,7 +28,7 @@ span {
 /* Button Styling */
 
 button {
-    background-color: #C271ff;
+    background-color: #C271FF;
     color: #FFFFFF;
     font-size: 0.8rem;
     border-radius: 2rem;
@@ -51,6 +51,14 @@ header {
     background-position: center;
     height: auto;
     padding-top: 1rem;
+}
+
+.logo-nav-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
 }
 
 .logo-nav-links img {
@@ -292,7 +300,7 @@ blockquote {
 }
 
 .memberships h2 {
-    font-size: 0.875rem;
+    font-size: 1.125rem;
 }
 
 .memberships p {
@@ -314,4 +322,54 @@ blockquote {
 
 .FAQ p {
     font-size: 0.875rem;
+    padding-bottom: 3.5rem;
+    line-height: 1.6;
+}
+
+.FAQ h3 {
+    font-size: 1rem;
+    font-family: "Custom-Font-Regular";
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.FAQ h2 {
+    font-size: 3.75rem;
+    text-align: center;
+}
+
+.FAQ-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FAQ-column {
+    flex: 0 0 40%;
+}
+
+/* Footer Styling */
+
+footer {
+    background-color: #071629;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    padding-bottom: 0rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-container p {
+    color: gray;
 }
