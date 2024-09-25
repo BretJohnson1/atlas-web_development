@@ -192,8 +192,6 @@ header {
 }
 
 
-
-
 .quote-container div :nth-child(4) {
     color: white;
     font-weight: 800;
@@ -228,6 +226,9 @@ header {
     font-family: Source-sans-pro-Light;
     font-weight: 100;
 }
+.video-container-h1 b {
+color: #C271FF;
+}
 
 .video-container {
     display: flex;
@@ -236,11 +237,10 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 1228px;
-    height: 450px;
 }
 
 
-.video-container .videos img {
+.videos img {
     display: flex;
     justify-content: center;
     height: auto;
@@ -253,10 +253,8 @@ header {
     flex-direction: column;
     padding-left: 1rem;
     padding-right: 1rem;
-    width: 255px;
+    max-width: 255px;
     height: 355px;
-
-
 }
 
 .video-container .videos h2 {
@@ -273,47 +271,44 @@ header {
     margin-top: auto;
     margin-bottom: auto;
     padding-left: 13px;
-
 }
 
-.video-container .videos .author {
+.author {
     display: flex;
+    align-items: center;
     padding-bottom: 1rem;
 }
 
-.video-container .videos .author img {
+.author img {
     border-radius: 30px;
     max-height: 30px;
     max-width: 30px;
     margin-left: 13px;
 }
 
-.video-container .videos .ratings {
+.author h3 {
+    padding-left: 10px;
+    color: #C271FF;
+}
+
+ .videos .ratings {
     display: flex;
     flex-direction: row;
     margin-left: auto;
     margin-top: auto;
-    padding-left: 13px;
 }
 
-.video-container .videos div .ratings img {
+.videos .ratings .rating-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.rating-images img {
     width: 14px;
     height: 100%;
     max-width: 1rem;
     max-height: 3rem;
-    padding-right: .25rem;
-}
-
-.video-container .videos div .ratings p {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-top: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 14px;
-    font-weight: 800;
-    color: #C271FF;
 }
 
 .video-container p {
@@ -325,13 +320,25 @@ header {
 }
 
 
-.thumbnail {
+.rating-images p {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: flex-start;
+    font-size: px;
+    font-weight: 800;
+    color: #C271FF;
+    padding-left: 79px;
+}
+
+ .thumbnail {
     position: relative;
     max-width: 255px;
     max-height: 154px;
 }
 
-.overlay {
+ .overlay {
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
@@ -340,7 +347,7 @@ header {
     height: 64px;
 }
 
-.video-container-h1 b {
+ .video-container-h1 b {
     color: #C271FF;
     font-family: 'Source-sans-pro-Bold';
     font-weight: 800;
