@@ -100,11 +100,18 @@ li {
 }
 
 .hero h1 {
-    font-size: 120px;
-    font-family: "Custom-Font-Regular";
+    display: flex;
+  justify-content: center;
+  padding-top: 101px;
+  font-size: 120px;
+  text-align: center;
+  font-family: 'Source-sans-pro-Bold';
+  font-weight: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
     color: #FFFFFF;
-    margin: 0;
-    padding-top: 10.5rem;
+
 }
 
 .hero-text {
@@ -120,9 +127,14 @@ li {
 
 .span-text {
     display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 5rem;
+  color: white;
+  font-family: Source-sans-pro-Bold;
+  padding-bottom: 25px;
+  margin-top: auto;
 }
 
 .span-text div {
